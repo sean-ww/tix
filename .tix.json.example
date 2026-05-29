@@ -1,0 +1,6 @@
+{
+  "jiraHost": "yourcompany.atlassian.net",
+  "jiraEmail": "you@example.com",
+  "jiraToken": "YOUR_API_TOKEN_HERE",
+  "defaultBase": "dev"
+}
