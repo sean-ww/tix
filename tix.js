@@ -187,7 +187,7 @@ async function main() {
     process.exit(1);
   }
 
-  git(`checkout -b ${branchName} origin/${baseBranch}`);
+  git(`checkout -b ${branchName} --no-track origin/${baseBranch}`);
 
   console.log(`\n✅  Done! You're now on: ${branchName}`);
 }
